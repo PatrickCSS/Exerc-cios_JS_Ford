@@ -21,18 +21,18 @@
 // = motrar a saída do programa na console
 
 
-public class Triangulo {
-    public static void main(number[]) {
-        Scanner scanner = new Scanner(System.in);
+class Triangulo {
+    static  main([]) {
+         scanner = new Scanner(System.in);
 
         System.out.println("Digite o comprimento do lado A do :triângulo");
-        double ladoA = scanner.nextDouble();
+         ladoA = scanner.nextDouble();
 
         System.out.println("Digite o comprimento do lado B do triângulo:");
-        double ladoB = scanner.nextDouble();
+         ladoB = scanner.nextDouble();
 
         System.out.println("Digite o comprimento do lado C do triângulo:");
-        double ladoC = scanner.nextDouble();
+         ladoC = scanner.nextDouble();
 
         if (ladoA == ladoB && ladoB == ladoC) {
             System.out.println("Triângulo Equilátero");

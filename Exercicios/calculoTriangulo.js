@@ -35,11 +35,11 @@ public class Triangulo {
         double ladoC = scanner.nextDouble();
 
         if (ladoA == ladoB && ladoB == ladoC) {
-            System.out.println("TriÃ¢ngulo EquilÃ¡tero");
+            System.out.println("Triângulo Equilátero");
         } else if (ladoA == ladoB || ladoA == ladoC || ladoB == ladoC) {
-            System.out.println("TriÃ¢ngulo IsÃ³sceles");
+            System.out.println("Triângulo Isósceles");
         } else {
-            System.out.println("TriÃ¢ngulo Escaleno");
+            System.out.println("Triângulo Escaleno");
         }
 
         scanner.close();
